@@ -1,0 +1,291 @@
+/****Header*******/
+
+html body {
+    height: 100%;
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.content .header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+}
+
+.header img {
+    width: 9%;
+    float: left;
+}
+
+.header_text {
+    margin: 0 auto;
+    font-family: arial;
+    padding-top: 14px;
+    padding-right: 8%;
+
+}
+
+.post_form {
+    display: flex;
+    border: 0px;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /*background: #e6fef7;*/
+}
+/****Post Form****/
+.post_form .btn {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+}
+
+.post_form .post_form_image img {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(235, 238, 240);
+    float: left;
+}
+
+.post_form_image{
+    width: 80px;
+    padding: 5px 15px 10px 10px;
+    float: left;
+}
+
+
+.post_form .name_input {
+    border: 0px;
+    width: 100%;
+    background: #e6fef7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.post_form .text_area {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    height: 80px;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.post_form .image_input_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgb(235, 238, 240);
+    padding-top: 8px;
+}
+.post_form .image_input {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 4px;
+    border-color: #80808059;
+    padding: 6px;
+    font-size: 14px;
+    
+}
+
+/* Separator */
+
+.separator {
+    height: 15px;
+    /* border-top: 1px solid rgb(235, 238, 240); */
+    /* border-bottom: 1px solid rgb(235, 238, 240); */
+    background-color: rgb(247, 248, 248);
+}
+/*****posts***************/
+
+.posts li .post_area{
+    margin-left: 85px;
+    
+}
+
+.posts li .post_area p {
+    margin-top: -18px;
+}
+
+.posts .name_area .datetime {
+    padding-left: 20px;
+    color: gray;
+    font-size: 14px;
+}
+
+.posts ul {
+    padding: 0;
+    list-style: none;
+}
+
+.posts li {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.posts li .li-div {
+    display: flex;
+    padding-top: 21px;
+}
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px; 
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+.posts li .logo img {
+    width: 50px;
+    padding-left: 20px;
+}
+
+.posts li .name_area {
+    font-family: arial;
+    display: flex;
+    font-size: 17px;
+}
+
+.posts li .name_area .name {
+    font-weight: bold;
+    font-family: arial;
+    padding-left: 15px;
+    
+}
+
+
+.posts li .name_body .datetime {
+   color: gray;
+}
+
+@media screen and (max-width: 600px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+    }
+    
+    .post_form .name_input {
+        width: 90%
+    }
+
+    .content {
+        border-right: 0px;
+        border-left: 0px;
+    }
+
+}
+
+.posts li .post_area_image {
+    width: 70%;
+    height: auto;
+}
+
+.posts li .like_area{
+    display: flex;
+}
+
+.posts li .heart {
+    border: none;
+    width: 23px;
+    margin-left: 85px;
+    padding-top: 12px;
+    margin-bottom: 10px;
+    padding-right: 9px;
+}
+
+/* Credits Button */
+
+.credits button{
+    padding: 10px 10px;
+}
+
+/* Edit Page */
+
+.edit_form {
+    width: 100%;
+    height: auto;
+}
+
+.image_of_image_input_edit {
+    padding-bottom:10px;
+}
+
+.line {
+    height: 1px;
+    background: #80808042;
+    margin-bottom: 10px;
+    margin-right: -14px;
+}
+
+.bottom_section_edit {
+    display: flex;
+}
+
+.image_input_edit {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3px;
+    border-color: #80808059;
+    padding: 6px;
+    font-size: 14px;
+}
+    
+
+.cancel_button {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    margin-left: 28px;
+    text-decoration: none;
+    font-family: arial;
+    background-color: rgb(73, 73, 73);
+}
+
+.update_button {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    margin-left: 28px;
+    text-decoration: none;
+    font-family: arial;
+    background-color: rgb(29, 161, 242);

@@ -3,7 +3,7 @@ Check out [LIVE DEMO](https://zoomglam-backend-production.herokuapp.com/) here!!
 ## How to Install
 1. Git Clone
 ```
-git clone https://github.com/deekshith-hari/zoomglam.git
+git clone https://github.com/summeratmosphere/twitter_clone.git
 ```
 ```
 Python -m venv env

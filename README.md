@@ -1,5 +1,5 @@
 # twitterclone
-Check out [LIVE DEMO](https://zoomglam-backend-production.herokuapp.com/) here!!
+Check out [LIVE DEMO](https://twitter-clone-michael.herokuapp.com/) here!!
 ## How to Install
 1. Git Clone
 ```
